@@ -1,0 +1,25 @@
+
+#logo-principal{
+    width: 8rem;
+}
+
+body {
+    background-image: url("../Imagenes/Lizard.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li.nav-item{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+div.card{
+    width: 20rem;
+    padding-top: 0.7rem;
+}
+
+#cartelera{
+    margin-top: 2rem;
+}
