@@ -3,11 +3,137 @@
     width: 8rem;
 }
 
-body {
+body{
     background-image: url("../Imagenes/Lizard.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*Modificaciones Carousel*/
+
+#epigrafe::before{
+    content: "";
+    background: url("../Imagenes/Deep\ Space.jpg");
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    border-radius: 1.4rem;
+}
+
+#epigrafe h4{
+    font-size: 3rem;
+    display: flex;
+    align-self: flex-start;
+    opacity: 0.99;
+    padding-left: 1rem;
+} 
+
+#epigrafe p{
+    font-size: 1.7rem;
+    display: flex;
+    align-self: flex-start;
+    opacity: 0.99;
+    padding-left: 1rem;
+} 
+
+/*Fin modificaciones Carousel*/
+
+/*Modificaiones CARTELERA*/
+#filaCartelera{
+    background-image: url("../Imagenes/Deep\ Space.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+}
+
+#filaCartelera h2{
+    margin-left: 18rem;
+    margin-top: 2.5rem;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+div.card{
+    margin-bottom: 2rem;
+    height: 90%;
+} 
+
+img.card-img-top{
+    height: 80%;
+}
+
+#cartelera{
+    margin-top: 0.7rem;
+}
+
+
+/*Fin Modificaiones CARTELERA*/
+
+/* TAMAÑO ICONOS */
+img#twitter{
+    width: 27px;
+}
+img#facebook{
+    width: 32px;
+}
+img#instagram{
+    width: 28px;
+}
+/*FIN TAMAÑO ICONOS */
+
+/* Inicio modificaciones footer */
+footer{
+    background-image: url("../Imagenes/Deep\ Space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#listafooter{
+    padding-left: 12rem;
+}
+footer div img#logoSecundario{
+    width: 100px;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;   
+}
+
+
+#listafooter{
+    margin-top: 1.3rem;
+}
+
+#listafooter li{
+    margin-top: 0.2rem;
+}
+#listafooter li::marker{
+    content: '➢ ';
+    color: whitesmoke;
+}
+
+#listafooter li a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-top: 5rem;
+    transition: all 0.2s ease-in;
+}
+
+#listafooter li a:hover{
+    color: gold;
+    text-shadow: 2px 1px 5px;
+    font-size: 1.04rem;
+    
+}
+div p{
+    color: whitesmoke;
+}
+
+div p i{ 
+    color: whitesmoke;
+}
+
 
 li.nav-item{
     display: flex;
@@ -15,11 +141,5 @@ li.nav-item{
     font-size: 1.2rem;
 }
 
-div.card{
-    width: 20rem;
-    padding-top: 0.7rem;
-}
+/*Fin modificaciones footer*/
 
-#cartelera{
-    margin-top: 2rem;
-}
