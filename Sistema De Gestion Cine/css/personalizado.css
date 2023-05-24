@@ -143,3 +143,27 @@ li.nav-item{
 
 /*Fin modificaciones footer*/
 
+/* Inicio Pagina Ayuda */
+#filaAyuda{
+    background-image: url("../Imagenes/Deep\ Space.jpg");
+}
+#filaAyuda h2{
+    color: whitesmoke;
+    font-size: 4rem;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.7rem; 
+}
+
+#accordionAyuda .accordion-item{
+    font-size: 2rem;
+    background-image: url("../Imagenes/Royal.jpg");
+    color: whitesmoke;
+}
+
+#accordionAyuda .accordion-button{
+    font-size: 2rem;
+    
+}
+
+/* Fin Pagina Ayuda */
