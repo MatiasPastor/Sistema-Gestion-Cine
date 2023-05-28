@@ -199,6 +199,7 @@ li.nav-item{
 /* Fin Pagina Ayuda */
 
 /* Pagina Promociones */
+
 #FilaPromociones{
     background-image: url("../Imagenes/Deep\ Space.jpg");
     color: whitesmoke;
@@ -207,11 +208,174 @@ li.nav-item{
 }
 
 #FilaPromociones h2{
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
-.Separador{
-    height: 50px;
-    opacity: 2%;
+div.Promociones{
+    margin-bottom: 4rem;
+}
+
+#ImagenSuperior{
+    margin-top: 0%;
+}
+
+#ImagenSuperior img{
+    width: 90%;
+    margin-bottom: 4rem;
+    transition: 0.3s ease-in all;
+    border-radius: 3%;
+}
+
+#ImagenSuperior img:hover{
+    width: 95%;
+}
+
+div.Promociones{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-image: url("../Imagenes/Lizard.jpg");
+}
+
+div.Promociones div{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+div.Promociones div div div h4{
+    font-size: 3rem;
+    color: white;
+}
+
+div.Promociones div div div p{
+    font-size: 1.5rem;
+}
+
+div.Promociones div div div img{
+    width: 100%;
+    border-radius: 15px;
 }
 /* Fin pagina promociones */
+
+
+/* Pagina Contacto */
+
+#FondoContacto{ 
+    background-image: url("../Imagenes/sala-cine.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -400px;
+    
+}
+
+#FondoContacto h2{
+    font-size: 6.4rem;
+    margin-top: 21rem;
+    margin-left: 1rem;
+    width: 33%;
+    color: whitesmoke;
+}
+
+#FondoContacto p{
+    font-size: 2.7rem;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.row.Separador{
+    height: 60px;
+}
+
+
+
+#FormularioContacto{
+    padding-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 9rem;
+    width: 35%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 4%;
+}
+
+
+#FormularioContacto label{
+    color: whitesmoke;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.7rem;   
+    margin-bottom: 1rem; 
+    background-image: url("../Imagenes/Lizard.jpg");
+    transition: all 0.3s ease-in;
+}
+
+#FormularioContacto input.form-control{
+    width: 80%;
+    margin-left: 3.5rem;
+}
+
+#FormularioContacto label:hover{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#FormularioContacto textarea{
+    width: 80%;
+    margin-left: 3.4rem;
+}
+
+textarea#consulta{
+    width: 90%;
+    margin-left: 1.9rem;
+}
+
+#FormularioContacto input.btn{
+    width: 20%;
+    font-size: 1.3rem;
+}
+
+#LogoContacto{
+    width: 6%;
+    margin-top: 1.5rem;
+    transition: all 0.1s ease-in;
+}
+
+#LogoContacto:hover{
+    rotate: -8deg;
+}
+
+.row#FilaMapa{
+    color: whitesmoke;
+    margin-bottom: 5rem;
+    transition: 0.2 all ease-in;
+}
+
+.row#FilaMapa h4{
+    font-size: 3.5rem;
+    margin-left: 6rem;
+    transition: all 0.2s ease-in;
+}
+
+.row#FilaMapa h4:hover{
+    text-shadow: 1px 1px 2px;
+    font-size: 3.8rem; 
+}
+
+.row#FilaMapa #Mapa{
+    width: 8%;
+    
+}
+
+.row#FilaMapa div.col iframe{
+    margin-left: 4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.row#FilaMapa div.col iframe:hover{
+    box-shadow: 1px 1px 6px black;
+}
+
+
+/* Fin Pagina Contacto*/
